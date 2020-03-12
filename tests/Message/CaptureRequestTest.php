@@ -4,7 +4,7 @@ use Omnipay\Tests\TestCase;
 
 class CaptureRequestTest extends TestCase
 {
-    public function setUp()
+    public function setUp(): void
     {
         $this->request = new CaptureRequest($this->getHttpClient(), $this->getHttpRequest());
         $this->request->initialize(
