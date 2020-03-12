@@ -3,15 +3,16 @@
 namespace Omnipay\Payflow\Message;
 
 use Mockery as m;
+use Omnipay\Common\Exception\InvalidResponseException;
 use Omnipay\Tests\TestCase;
 
 class ResponseTest extends TestCase
 {
-    /**
-     * @expectedException Omnipay\Common\Exception\InvalidResponseException
-     */
     public function testConstructEmpty()
     {
+        $this->expectException(InvalidResponseException::class);
+        $this->expectExceptionMessage('Invalid response from payment gateway');
+
         $response = new Response($this->getMockRequest(), '');
     }
 

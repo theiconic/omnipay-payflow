@@ -2,10 +2,6 @@
 
 **Payflow driver for the Omnipay PHP payment processing library**
 
-[![Build Status](https://travis-ci.org/thephpleague/omnipay-payflow.png?branch=master)](https://travis-ci.org/thephpleague/omnipay-payflow)
-[![Latest Stable Version](https://poser.pugx.org/omnipay/payflow/version.png)](https://packagist.org/packages/omnipay/payflow)
-[![Total Downloads](https://poser.pugx.org/omnipay/payflow/d/total.png)](https://packagist.org/packages/omnipay/payflow)
-
 [Omnipay](https://github.com/thephpleague/omnipay) is a framework agnostic, multi-gateway payment
 processing library for PHP 5.3+. This package implements [Payflow](https://developer.paypal.com/docs/classic/products/payflow-gateway/) support for Omnipay.
 
